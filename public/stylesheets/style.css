@@ -1,0 +1,336 @@
+body {
+                font-family: "Montserrat","Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+                background-image: url("//rushtonmd.com/wp-content/uploads/2013/01/subtle_dots.png");
+                font-family: "Helvetica Neue";
+                color:rgba(20,20,20,0.7);
+            }
+            div.bigbg{
+                background: #000 url("//rushtonmd.com/wp-content/uploads/2013/01/markontwinpeaks.jpg") center no-repeat;
+                background-size: cover;
+                -moz-background-size: cover;
+                top:0px;
+                bottom:0px;
+                position:absolute;
+                left: 0px;
+                right: 0px;
+                
+                
+            }
+            a.agileslug-link {
+                color: rgba(193,118,0,1.0);
+                 text-decoration: none;
+                 text-shadow: rgba(240,255,255,1.0) 1px 1px 1px;
+            }
+		a.agileslug-link:hover {
+                color: rgba(255,200,0,0.8);
+            }
+            a.agileslug-link:visited {
+                color: rgba(242,148,0,0.8);
+            }
+            .centered-heading{
+                text-align: center;
+                padding-top: 30px;
+            }
+            .twitter-button-image {
+                background: url("//rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+            }
+            .twitter-button:hover {
+                background-color: rgb(41,183,250);
+            }
+            .linkedin-button-image {
+                background: url("//rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+            }
+            .linkedin-button:hover {
+                background-color: rgb(75,153,204);
+            }
+            .rss-button-image {
+                background: url("//rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+            }
+            .rss-button:hover {
+                background-color: rgb(75,153,204);
+            }
+            .instagram-button-image {
+                background: url("//rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+            }
+            .instagram-button:hover {
+                background-color: rgb(164,117,87);
+            }
+            
+            .youtube-button {
+                background: url("//rushtonmd.com/wp-content/uploads/2013/01/youtube.png") center no-repeat;
+            }
+            .youtube-button:hover {
+                background-color: rgb(250,55,44);
+            }
+            .large-circle {
+ 		background-color: rgba(0,10,10,0.25);
+                border-radius: 10%;
+                /* width: 32px;
+                height: 32px; */
+                margin: 0 10px;
+		padding: 14px;
+            }
+
+            .first-row-of-bio {
+                margin-top: 50px;
+            }
+            
+            .first-row-of-bio div p {
+                font-size: 1.3em;
+                line-height: 140%;
+		padding-right: 20px;
+		text-align: justify;
+            }
+            .first-row-of-bio div h2 {
+                font-size: 3em;
+            }
+	    a.bio-links {
+		font-weight: bold;
+	    	color:rgba(20,20,20,0.7);
+		text-decoration: none;
+	    }
+	    a.bio-links:hover {
+		color:rgba(20,20,20,0.4);
+	    }
+	    a.bio-links:visited {
+		color:rgba(20,20,20,0.7);
+	    }
+
+            ul.biolist {
+                margin:0;
+                padding-top: 30px;
+            }
+            ul.biolist li {                
+                display: inline-block;
+                list-style-type: none;
+                padding: 10px;
+            }
+	    .page-icons {
+		background: url("//rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") top left no-repeat;
+		opacity: 0.55;
+	    }
+            ul.sociallist {
+                margin: 0;
+                padding-left: 0px;
+                padding-top:20px;
+            }
+            
+            ul.sociallist li {                
+                display: inline-block;
+                list-style-type: none;
+            }
+            ul.navlist {
+                padding: 0;
+                margin: 0;
+                list-style-type: none;
+            }
+            ul.navlist li
+            {
+                display: inline-block;
+                color: white;
+                text-decoration: none;
+                vertical-align: middle;
+            }
+            ul.navlist li.site-header-title a{
+                text-decoration: none;
+                display: block;
+                font-weight: bold;
+                font-size: 24px;
+                padding: 0px 20px;
+                color: rgba(240,255,255,0.5);
+                
+            }
+            
+            ul.navlist li h4
+            {
+                font-size: 14px;
+                margin:0px;
+                padding: 0 50px 0 20px;
+            }
+            
+            ul.navlist li a.header-links{
+                text-decoration: none;
+                display: block;
+                padding: 7px 20px;
+		color:white;
+            }
+            ul.navlist li a.header-links:visited{
+                color:white;
+            }
+            ul.navlist li a.header-links:hover{
+                background: rgba(220,255,255,0.3);
+            }
+            /*div.conditional-top-nav#top-navigation-list {
+                display: none;
+            }*/
+            div.conditional-top-nav{
+                display: none;
+                background: rgba(0,10,10,0.65);
+                width: 100%;
+                /*height: 40px;*/
+                top: 0px;
+                left: 0px;
+                position: fixed;
+                z-index: 99999;
+            }
+            div#introcopy {
+                position:absolute;
+                left:60%;
+                top:15%;
+                right: 20px;
+                
+            }
+            #contactTextArea{
+                height: 200px;
+            }
+            .footer-bar {
+                background: rgba(0,10,10,0.65);
+                color: rgba(255,255,255,0.8);
+                left:0px;
+                right:0px;
+                height: 40px;
+                bottom: 0px;
+            }
+	.footer-row {
+                text-align: center;
+                margin: 20px;
+            }
+            .footer-text {
+                padding-top: 10px;
+                font-weight: bold;
+		
+                color: rgba(0,10,10,0.5);
+            }
+            h1, h2 {
+                font-family: "Montserrat";
+                color: rgba(0,10,10,0.25);
+            }
+            
+            .row-of-content {
+                border-bottom-style:solid;
+                border-bottom-color: rgba(0,10,10,0.15);
+                padding-bottom: 50px;
+            }
+            h1#sitetitle{
+                margin: 0px;
+                color:rgba(255,255,255,0.4);
+                font-size: 60px;
+            }
+            div#siteslogan{
+                font-family: "Helvetica Neue";
+                color:rgba(20,20,20,0.7);
+                padding-top: 20px;
+                padding-left: 10px;
+                padding-right: 20px;
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: bold;
+            }
+
+            #maincontent{
+                padding-top: 50px;
+            }
+
+		#contact-submit-button {
+            width:100%;
+			font-size: 16px;
+			padding: 10px 20px;
+		}
+		.contact-submit-button-row {
+			text-align: center;
+		}
+        .mdr-contact-form-label {
+            margin-left: 0.5em;
+        }
+
+
+	.sprite-PMP_64{ background-position: 0 0; width: 64px; height: 43px; } 
+.sprite-apple{ background-position: 0 -93px; width: 64px; height: 64px; } 
+.sprite-instagram{ background-position: 0 -207px; width: 32px; height: 32px; } 
+.sprite-laptop_64{ background-position: 0 -289px; width: 64px; height: 64px; } 
+.sprite-linkedin{ background-position: 0 -403px; width: 32px; height: 32px; } 
+.sprite-os-win-04{ background-position: 0 -485px; width:64px; height: 64px; } 
+.sprite-photo_64{ background-position: 0 -599px; width: 64px; height: 64px; } 
+.sprite-scrummaster_64{ background-position: 0 -713px; width: 64px; height: 64px; } 
+.sprite-smile_64{ background-position: 0 -827px; width: 64px; height: 64px; } 
+.sprite-subtle_dots{ background-position: 0 -941px; width: 27px; height: 15px; } 
+.sprite-twitter-1{ background-position: 0 -1006px; width: 32px; height: 32px; } 
+.sprite-volume_up_64{ background-position: 0 -1088px; width: 64px; height: 64px; } 
+.sprite-youtube{ background-position: 0 -1202px; width: 32px; height: 32px; } 
+            
+            @media (min-width: 1200px){
+                ul.biolist li {          
+                    padding: 20px;
+                }
+            }
+            
+            
+            @media (max-width: 979px) {
+		div#introcopy {
+
+                left:50%;     
+            }
+                h1#sitetitle{
+                    font-size: 50px;
+		    
+                }
+
+                ul.biolist li {          
+                    padding: 20px;
+                }   
+
+            }
+            
+            @media (max-width: 767px){
+                 ul.biolist {          
+                    padding: 0 0 30px 0;
+                }  
+
+		#input-name-field {
+			width: 95%;
+		}
+		#input-email-field {
+			width: 95%;
+		}
+		#input-message-field {
+			width: 95%;
+		}
+
+		
+            	
+            }
+            
+            @media (max-width: 520px) {
+                div#introcopy {
+                    position:absolute;
+                    left:10px;
+                    right:10px;
+                    top:40px;
+                }
+                h1#sitetitle{
+		    color:rgba(255,255,255,0.7);
+		    text-shadow: rgba(0,0,0,0.3) 1px 1px 5px;
+                    font-size: 60px;
+                    width: 100%;
+                    padding: 0;
+                    margin: 0;
+                    text-align: center;
+                }
+                div#siteslogan{
+                    display: none;
+                }
+		ul.biolist li {          
+                    padding: 0px 3px;
+                } 
+
+		ul.navlist li a.header-links{
+                	padding: 7px 10px;
+            	}
+		.large-circle {                
+                	margin:3;
+		}
+		.footer-text {
+			font-size: 12px;
+		}
+		
+	    }
