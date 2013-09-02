@@ -326,8 +326,8 @@ body {
 		ul.navlist li a.header-links{
                 	padding: 7px 10px;
             	}
-		.large-circle {                
-                	margin:1;
+		div.large-circle {                
+                	margin: 1px;
 		}
 		.footer-text {
 			font-size: 12px;
