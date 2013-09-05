@@ -1,12 +1,12 @@
 body {
 		font-family: "Montserrat","Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-		background-image: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/subtle_dots.png");
+		background-image: url("../images/subtle_dots.png");
 		font-family: "Helvetica Neue";
 		color: rgba(20,20,20,0.7);
 }
 
 div.bigbg {
-		background: #000 url("//assets.rushtonmd.com/wp-content/uploads/2013/01/markontwinpeaks.jpg") center no-repeat;
+		background: #000 url("../../images/markontwinpeaks.jpg") center no-repeat;
 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -38,7 +38,7 @@ a.agileslug-link:visited {
 }
 
 .twitter-button-image {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+		background: url("../images/csg-5228083705506.png") center no-repeat;
 }
 
 .twitter-button:hover {
@@ -46,7 +46,7 @@ a.agileslug-link:visited {
 }
 
 .linkedin-button-image {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+		background: url("../images/csg-5228083705506.png") center no-repeat;
 }
 
 .linkedin-button:hover {
@@ -54,7 +54,7 @@ a.agileslug-link:visited {
 }
 
 .rss-button-image {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+		background: url("../images/csg-5228083705506.png") center no-repeat;
 }
 
 .rss-button:hover {
@@ -62,15 +62,15 @@ a.agileslug-link:visited {
 }
 
 .instagram-button-image {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") center no-repeat;
+		background: url("../images/csg-5228083705506.png") center no-repeat;
 }
 
 .instagram-button:hover {
 		background-color: rgb(164,117,87);
 }
 
-.youtube-button {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/youtube.png") center no-repeat;
+.youtube-button-image {
+		background: url("../images/csg-5228083705506.png") center no-repeat;
 }
 
 .youtube-button:hover {
@@ -128,7 +128,7 @@ ul.biolist li {
 }
 
 .page-icons {
-		background: url("//assets.rushtonmd.com/wp-content/uploads/2013/01/csg-51031e01242fb.png") top left no-repeat;
+		background: url("../images/csg-5228083705506.png") top left no-repeat;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
 		filter: alpha(opacity=55);
 		opacity: 0.55;
@@ -283,7 +283,22 @@ div#siteslogan {
 		margin-left: 0.5em;
 }
 
-.sprite-PMP_64 {
+
+.sprite-PMP_64{ background-position: 0 0; width: 64px; height: 43px; } 
+.sprite-apple{ background-position: 0 -93px; width: 64px; height: 64px; } 
+.sprite-instagram{ background-position: 0 -207px; width: 32px; height: 32px; } 
+.sprite-laptop_64{ background-position: 0 -289px; width: 64px; height: 64px; } 
+.sprite-linkedin{ background-position: 0 -403px; width: 32px; height: 32px; } 
+.sprite-os-win-04{ background-position: 0 -485px; width: 64px; height: 64px; } 
+.sprite-photo_64{ background-position: 0 -599px; width: 64px; height: 64px; } 
+.sprite-scrummaster_64{ background-position: 0 -713px; width: 64px; height: 64px; } 
+.sprite-smile_64{ background-position: 0 -827px; width: 64px; height: 64px; } 
+.sprite-subtle_dots{ background-position: 0 -941px; width: 27px; height: 15px; } 
+.sprite-twitter-1{ background-position: 0 -1006px; width: 32px; height: 32px; } 
+.sprite-volume_up_64{ background-position: 0 -1088px; width: 64px; height: 64px; } 
+.sprite-youtube{ background-position: 0 -1202px; width: 32px; height: 32px; } 
+
+/*.sprite-PMP_64 {
 		background-position: 0 0;
 		width: 64px;
 		height: 43px;
@@ -359,7 +374,7 @@ div#siteslogan {
 		background-position: 0 -1202px;
 		width: 32px;
 		height: 32px;
-}
+}*/
 
 @media (min-width: 1200px) {
 		ul.biolist li {
