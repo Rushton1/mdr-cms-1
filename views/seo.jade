@@ -1,6 +1,6 @@
 link(rel="canonical", href="http://rushtonmd.com/")
 -each metatag in metatags
-	meta(property= metatag.property, src= metatag.content)
+	meta(property= metatag.property, content= metatag.content, name= metatag.name )
 script.
 	var _gaq = _gaq || [];
 		_gaq.push(['_setAccount', 'UA-34927029-2']);
