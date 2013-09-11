@@ -4,7 +4,7 @@
 
 exports.index = function(req, res, cms) {
 	res.render('index', cms, function(err, html) {
-		// TODO: Save the HTML to Re
+		// TODO: Save the HTML to Redis
 		res.send(html);
 	});
 };
