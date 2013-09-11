@@ -58,15 +58,15 @@ block content
 					.form-group
 						span.glyphicon.glyphicon-user  
 						label.mdr-contact-form-label(for="mdr-name") Name
-						input.form-control.input-lg(type="text", name="mdrname")
+						input.form-control.input-lg(type="text", name="mdrname", required)
 					.form-group
 						span.glyphicon.glyphicon-envelope  
 						label.mdr-contact-form-label(for="mdr-email") Email
-						input.form-control.input-lg(type="email", name="mdremail")
+						input.form-control.input-lg(type="email", name="mdremail", required)
 					.form-group
 						span.glyphicon.glyphicon-pencil  
 						label.mdr-contact-form-label(for="mdr-message") Message
-						textarea.form-control.input-lg(name="mdrmessage", rows="10")
+						textarea.form-control.input-lg(name="mdrmessage", rows="10", required)
 					.form-group
 						input(type="hidden", name="name")
 						input(type="hidden", name="username")
