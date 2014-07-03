@@ -1,0 +1,103 @@
+extends layout
+
+block content
+	include header
+	.bigbg
+		#introcopy
+			h1#sitetitle Welcome!
+			#siteslogan
+				p
+					| My name is Mark D Rushton, and I'm a project manager living in the fantastic city of San Francisco. I have a passion for creating amazing things, and above all am devoted to increasing happiness in all I do.
+				p
+					| Don't forget to travel over to 
+					a.agileslug-link(href='http://agileslug.com') agileslug.com
+					| , a blog I started documenting the trials and tribulations of being an agile project manager in SoMa.
+				p Enjoy!
+	#maincontent.container
+		#bio-content.row.row-of-content.first-row-of-bio.section
+			.col-md-6
+				h2 Work
+				#work-bio
+					p
+						| I'm a project manager with over 15 years experience in software development. I've completed stints as a developer, manager, project manager, and Scrum Master. Learning and solving problems are a few of my passions, and I pride myself on being an optimistic pragmatist. I'm somewhat agnostic when it comes to technologies, and don't mind mixing it up in areas that I am new to.
+					p
+						| If I can go to work and be surrounded by amazing and inspired people, I'm a happy camper. I'm fortunate that I found a great group of people at 
+						a.bio-links(href='http://generalthings.com') General Things Inc.
+				p
+					ul.biolist
+						li
+							.page-icons.sprite-PMP_64
+						li
+							.page-icons.sprite-scrummaster_64
+						li
+							.page-icons.sprite-apple
+						li
+							.page-icons.sprite-os-win-04
+			.col-md-6
+				h2 Play
+				#play-bio
+					p
+						| I live in the amazing city of San Francisco with my beautiful wife Jamie. When I'm not amateur filming or riding my bike, I really enjoy just chilling on the beach or catching a movie.
+					p
+						| After spending 5 years remodeling a house in Springfield Missouri (and I don't mean the white-bread form of the word "remodel" that includes painting and buying furniture, I'm talking about asbestos-plaster wall destruction reconstruction remodel), I've really enjoyed not working on a house and just enjoying everything the city has to offer.
+				p
+					ul.biolist
+						li
+							.page-icons.sprite-laptop_64
+						li
+							.page-icons.sprite-photo_64
+						li
+							.page-icons.sprite-volume_up_64
+						li
+							.page-icons.sprite-smile_64
+		#contact-content.row.row-of-content.section
+			.col-md-6.col-md-offset-3
+				h1.centered-heading 
+					strong Contact Me
+				form#mdr-contact-form
+					.form-group
+						span.glyphicon.glyphicon-user  
+						label.mdr-contact-form-label(for="mdr-name") Name
+						input.form-control.input-lg(type="text", name="mdrname", required)
+					.form-group
+						span.glyphicon.glyphicon-envelope  
+						label.mdr-contact-form-label(for="mdr-email") Email
+						input.form-control.input-lg(type="email", name="mdremail", required)
+					.form-group
+						span.glyphicon.glyphicon-pencil  
+						label.mdr-contact-form-label(for="mdr-message") Message
+						textarea.form-control.input-lg(name="mdrmessage", rows="10", required)
+					.form-group
+						input(type="hidden", name="name")
+						input(type="hidden", name="username")
+						input(type="hidden", name="email")
+						input(type="hidden", name="address")
+						input(type="hidden", name="message")
+					.alert.alert-danger.form-alert
+					.alert.alert-success.form-alert Thank you for sending your message!
+					.col-md-6.col-md-offset-3
+						button#contact-submit-button.btn.btn-default.btn-lg(type="submit") Submit
+		#follow-content.row.row-of-content.section
+			.col-md-12.centered-heading
+					h1
+						strong Follow Me
+					ul.sociallist
+						li
+							a(href='http://www.linkedin.com/pub/mark-d-rushton/5/166/7a8/', title='LinkedIn')
+								.large-circle.linkedin-button
+									.sprite-linkedin.linkedin-button-image
+						li
+							a(href='http://twitter.com/rushtonmd', title='Twitter')
+								.large-circle.twitter-button
+									.sprite-twitter-1.twitter-button-image
+						li
+							a(href='http://instagram.com/rushtonmd', title='Instagram')
+								.large-circle.instagram-button
+									.sprite-instagram.instagram-button-image
+						li
+							a(href='http://youtube.com/rushtonmd', title='YouTube')
+								.large-circle.youtube-button
+									.sprite-youtube.youtube-button-image
+
+	include footer
+

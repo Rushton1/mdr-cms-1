@@ -1,3 +1,9 @@
 meta(name= "viewport", content= "width=device-width, initial-scale=1.0")
 -each stylesheet in stylesheets
-	link(rel='stylesheet', type= 'text/css', href= stylesheet)
+	link(rel='stylesheet', 
+		type= 'text/css', 
+		href= stylesheet.href, 
+		media=stylesheet.media, 
+		data-href = stylesheet.data_href,
+		class=stylesheet.class,
+		data-media=stylesheet.data_media)
