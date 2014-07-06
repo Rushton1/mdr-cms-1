@@ -92,6 +92,14 @@ h1, h2 {
     line-height: 3.0rem;
     font-weight: normal;
 }
+.skills-content .cert-logos {
+    display: block;
+    margin: auto;
+    height: 11rem;
+    margin-top: 4rem;
+    opacity: 0.4;
+}
+
 .bio-content .content-box h4 {
     font-family:'Open Sans', sans-serif;
     font-size: 1.5rem;
@@ -602,13 +610,13 @@ div#siteslogan {
 }
 @media (min-width: 1200px) {
     html {
-        font-size: 73.5%;
+        font-size: 80%;
     }
     ul.biolist li {
         padding: 20px;
     }
 }
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
     html {
         font-size: 62.5%;
     }
@@ -629,15 +637,17 @@ div#siteslogan {
         padding-left: 1rem;
         padding-right: 1rem;
     }
-}
+}*/
 
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     ul.biolist {
         padding: 0 0 30px 0;
     }
+
+    .outro-content .content-box h1,
     .intro-content .content-box h1 {
-        font-size: 3.8rem;
+        font-size: 4.2rem;
     }
     #input-name-field {
         width: 95%;
@@ -664,6 +674,7 @@ div#siteslogan {
         margin: 0px;
         padding: 0px;
     }
+
     .contact-content {
         background-color: #61796A;
         color: white;
@@ -678,9 +689,20 @@ div#siteslogan {
     .skills-content {
         background-color: white;
     }
+
+    .skills-content .cert-logos {
+        height: 14rem;
+        margin-bottom: 8rem;
+    }
+
+    .bio-content .content-box .content-text {
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+
     .skills-content .content-box .content-text {
-        padding-left: 6rem;
-        padding-right: 6rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
         font-size: 2.0rem;
         line-height: 3.5rem;
     }
@@ -698,6 +720,12 @@ div#siteslogan {
     }
 }
 
+@media (max-width: 767px) {
+    .skills-content .cert-logos {
+            height: 9rem;
+        }
+}
+
 @media (max-width: 600px) {
 	.bio-content,
 	.bio-content .content-box {
@@ -711,9 +739,18 @@ div#siteslogan {
 		visibility: hidden;
 		height: 0px;
 	}
+
+    .skills-content .content-box .content-text,
+    .bio-content .content-box .content-text {
+        padding: 4rem;
+        text-align: justify;
+    }
+
 	.bio-content .content-box .content-box-left .content-1 {
-		padding: 2rem;
+		padding-top: 4rem;
+        padding-bottom: 4rem;
 	}
+
 	.bio-content .content-box .content-box-right {
 		visibility: hidden;
 		height: 0px;
@@ -742,21 +779,43 @@ div#siteslogan {
     }
     .intro-content .content-box h1,
     .outro-content .content-box h1 {
-        font-size: 2.8rem;
+        font-size: 2.4rem;
         font-weight: 300;
     }
     .outro-content .content-box {
     	font-size: 1.2rem;
     	font-weight: 400;
     }
+
+    .skills-content .content-box .content-text,
+    .bio-content .content-box .content-text {
+        padding: 2rem;
+        font-size: 1.8rem;
+        line-height: 3rem;
+        text-align: justify;
+    }
+
+    .bio-content .content-box .content-box-left .content-1 {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .contact-content {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+
     ul.biolist li {
         padding: 0px 3px;
     }
     ul.navlist li a.header-links {
         padding: 7px 10px;
     }
-    div.large-circle {
+    .large-circle {
         margin: 3px;
+        height: 4rem;
+        width: 4rem;
     }
     .footer-text {
         font-size: 12px;

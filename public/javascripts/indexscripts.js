@@ -28,7 +28,7 @@
         $(".alert.alert-success.form-alert").hide();
         $(".alert.alert-danger.form-alert").hide();
 
-        if ($(window).width() > 767) {
+        if ($(window).width() > 991) {
 
             $('#maincontent').fullpage({
                 afterRender: function(anchorLink, index) {
@@ -49,7 +49,7 @@
 
     $(window).resize(function() {
 
-        if ($(window).width() > 767) {
+        if ($(window).width() > 991) {
             $('.full-window-height').css('height', $(window).height());
         } else {
             if ($(window).width() > 600) {
@@ -58,8 +58,7 @@
                 $('.bio-content').css('height', '100%');
             }
             $('.intro-content').css('height', $(window).height());
-
-            $('.skills-content').css('height', $(window).width());
+            $('.skills-content').css('height', '100%');
             $('.outro-content').css('height', $(window).height());
 
         };
