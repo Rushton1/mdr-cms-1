@@ -217,6 +217,7 @@ img.flip {
     bottom:-12rem;
     right: -20rem;
     opacity: 0.1;
+    z-index: -9999;
 }
 .skills-content .content-box .content-text, .bio-content .content-box .content-text {
     padding-left: 4rem;
