@@ -8,7 +8,8 @@ var express = require('express'),
 	path = require('path'),
 	cms = require('./lib/cms'),
 	check = require('validator').check,
-	sanitize = require('validator').sanitize,
+	//sanitize = require('validator').sanitize,
+  sanitize = require('html-css-sanitizer').sanitize,
 	emailer = require('./lib/emailer');
 
 var app = express();
@@ -54,6 +55,7 @@ if ('development' == app.get('env')) {
 app.get('/', function(req, res) {
 	routes.index(req, res, cms);
 });
+
 app.post('/contact-form', function(req, res) {
 	routes.contactform(req, res, sanitize, emailer);
 });

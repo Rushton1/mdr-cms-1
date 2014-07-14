@@ -17,9 +17,9 @@ exports.contactform = function(req, res, sanitize, emailer) {
 		});
 	} else {
 		emailInformation = {
-			name: sanitize(req.body.mdrname).xss(),
-			email: sanitize(req.body.mdremail).xss(),
-			message: sanitize(req.body.mdrmessage).xss()
+			name: sanitize(req.body.mdrname),
+			email: sanitize(req.body.mdremail),
+			message: sanitize(req.body.mdrmessage)
 		};
 		
 		emailer.sendEmailFromContactForm(emailInformation, res);
