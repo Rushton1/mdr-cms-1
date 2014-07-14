@@ -36,7 +36,6 @@
                     $('.initially-hidden').show();
                 },
                 afterLoad: function(anchorLink, index) {
-                    console.log("TEST2");
                     wow = new WOW().init();
                 }
             });
