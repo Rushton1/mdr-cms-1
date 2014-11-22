@@ -95,7 +95,7 @@ h1, h2 {
 .skills-content .cert-logos {
     display: block;
     margin: auto;
-    height: 8rem;
+    height: 6rem;
     margin-top: 2rem;
     opacity: 0.4;
 }
@@ -692,7 +692,7 @@ div#siteslogan {
     }
 
     .skills-content .cert-logos {
-        height: 14rem;
+        height: 6rem;
         margin-bottom: 8rem;
     }
 
@@ -723,7 +723,7 @@ div#siteslogan {
 
 @media (max-width: 767px) {
     .skills-content .cert-logos {
-            height: 9rem;
+            height: 6rem;
         }
 }
 
