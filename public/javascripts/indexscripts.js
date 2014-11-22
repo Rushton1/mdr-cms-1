@@ -33,14 +33,15 @@
             $('#maincontent').fullpage({
                 afterRender: function(anchorLink, index) {
                     wow = new WOW().init();
-                    $('.initially-hidden').show();
+
+                    $('.initially-hidden').fadeIn("slow");
                 },
                 afterLoad: function(anchorLink, index) {
                     wow = new WOW().init();
                 }
             });
         } else {
-            $('.initially-hidden').show();
+            $('.initially-hidden').fadeIn("slow");
         };
 
         $(window).resize();
