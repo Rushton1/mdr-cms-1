@@ -64,7 +64,7 @@
         };
 
         // Ensure main image is centered
-        $('.main-banner-image').css('left', $('.static-bg-image').width() / 2 - $('.main-banner-image').width() / 2);
+        //$('.main-banner-image').css('left', $('.static-bg-image').width() / 2 - $('.main-banner-image').width() / 2);
 
 
     });

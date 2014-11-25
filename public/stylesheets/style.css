@@ -20,17 +20,28 @@ h1, h2 {
     overflow: hidden;
 }
 .static-bg-image {
-    position:fixed;
+    /*position:fixed;*/
+    position:absolute;
     height:100%;
     width:40%;
     left:0;
     top:0;
     z-index:-9999;
 }
-.static-bg-image img.main-banner-image {
-    height: 92%;
+
+.static-bg-image .inner-bg-image-box {
+    width: 100%;
+    text-align: center;
     position: absolute;
     bottom: 0px;
+    height: 90%;
+}
+.static-bg-image img.main-banner-image {
+/*    height: 92%;
+    position: absolute;
+    bottom: 0px;*/
+    height: 100%;
+    width: auto;
 }
 .skills-content, .bio-content {
     padding: 0px;
